@@ -1,0 +1,56 @@
+/*H1 tag*/
+
+h1 {
+    margin: 15px;
+    font-size: larger;
+    text-align: center;
+}
+
+
+/*Arcade*/
+
+#arcade {
+    height: 350px;
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+
+/*Game Selection*/
+
+#arcade .title {
+    height: 30px;
+    margin: 10px;
+    font-size: large;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#arcade .previous {
+    height: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(241, 197, 0);
+    background-color: rgb(124, 0, 103);
+}
+
+#arcade .thumb {
+    height: 165px;
+    width: 200px;
+}
+
+#arcade .next {
+    height: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(241, 197, 0);
+    background-color: rgb(124, 0, 103);
+}
+
+#arcade .play {
+    display: block;
+    margin: 20px auto;
+}

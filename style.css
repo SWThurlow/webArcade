@@ -19,38 +19,39 @@ h1 {
 
 /*Game Selection*/
 
-#arcade .title {
-    height: 30px;
-    margin: 10px;
+.selection {
+    height: 350px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 75px 200px 75px;
+    grid-template-columns: 100px 200px 100px;
+    grid-template-areas: 'title title title' 'previous thumb next' '. play .';
+    justify-items: center;
+    align-items: center;
+}
+
+.selection .title {
     font-size: large;
-    text-align: center;
-    color: rgb(0, 0, 0);
+    grid-area: title;
 }
 
-#arcade .previous {
-    height: 30px;
-    padding: 15px;
-    border-radius: 50%;
-    text-align: center;
-    color: rgb(241, 197, 0);
-    background-color: rgb(124, 0, 103);
+.selection .previous {
+    grid-area: previous;
+    display: block;
 }
 
-#arcade .thumb {
+.selection .thumb {
     height: 165px;
     width: 200px;
+    grid-area: thumb;
 }
 
-#arcade .next {
-    height: 30px;
-    padding: 15px;
-    border-radius: 50%;
-    text-align: center;
-    color: rgb(241, 197, 0);
-    background-color: rgb(124, 0, 103);
-}
-
-#arcade .play {
+.selection .next {
+    grid-area: next;
     display: block;
-    margin: 20px auto;
+}
+
+.selection .play {
+    grid-area: play;
+    display: block;
 }

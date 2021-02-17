@@ -55,3 +55,43 @@ h1 {
     grid-area: play;
     display: block;
 }
+
+
+/*End of Game*/
+
+.endOfGame {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.endOfGame .winMsg {
+    grid-area: 0 / 0 / 1 / 1;
+}
+
+.endOfGame .gameScore {
+    grid-area: 1 / 0 / 2 / 1;
+}
+
+.endOfGame .playAgain {
+    grid-area: 2 / 0 / 3 / 1;
+}
+
+.endOfGame .oar {
+    grid-area: 3 / 0 / 4 / 1;
+}
+
+.endOfGame .differentGame {
+    grid-area: 4 / 0 / 5 / 1;
+}
+
+
+/*Memory Game*/
+
+.memoryImg {
+    height: 100px;
+    width: 100px;
+}
